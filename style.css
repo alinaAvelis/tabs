@@ -1,0 +1,98 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    line-height: 1.1;
+}
+
+p {
+    margin: 0;
+}
+
+body {
+    background-color: rgba(33, 50, 73, 0.1);
+}
+
+.schedule {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: 1.6;
+    color: rgba(33, 50, 73, 0.9);
+    
+}
+
+.tabcontainer {
+    display: flex;
+}
+
+.tabheader {
+    flex-basis: 25%;
+
+    font-size: 18px;
+}
+
+.title {
+    margin-bottom: 30px;
+    margin-left: 200px;
+
+    font-size: 25px;
+}
+
+.tabheader__items {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.tabheader__item {
+    margin-left: 100px;
+
+    cursor: pointer;
+}
+
+.tabheader__item:hover {
+    color: rgba(33, 50, 73, 0.5);
+}
+
+.tabcontent{
+    flex-basis: 75%;
+
+    font-size: 25px;
+
+    position: relative;
+}
+
+.img-container {
+    width: 600px;
+    height: 400px;
+    margin-left: 100px;
+
+    overflow: hidden;
+}
+
+.img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.tabcontent__descr {
+    padding: 15px;
+    width: 700px;
+    height: 270px;
+
+    color: white;
+
+    background-color: rgba(33, 50, 73, 0.3);
+
+    position: absolute;
+    top: 255px;
+    left: -150px;   
+}
